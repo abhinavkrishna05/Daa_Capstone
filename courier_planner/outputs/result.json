@@ -1,0 +1,81 @@
+{
+  "sorted_parcels": [
+    "P02",
+    "P07",
+    "P01",
+    "P04",
+    "P09",
+    "P06",
+    "P03",
+    "P10",
+    "P05",
+    "P08"
+  ],
+  "selected_parcels": [
+    "P01",
+    "P06",
+    "P03",
+    "P05"
+  ],
+  "selected_weight": 20,
+  "capacity": 20,
+  "total_value": 123,
+  "delivery_points": [
+    "A",
+    "C",
+    "E"
+  ],
+  "route": [
+    "DEPOT",
+    "A",
+    "C",
+    "E",
+    "DEPOT"
+  ],
+  "route_distance_km": 24,
+  "route_legs": [
+    {
+      "from": "DEPOT",
+      "to": "A",
+      "path": [
+        "DEPOT",
+        "A"
+      ],
+      "distance": 4
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "path": [
+        "A",
+        "C"
+      ],
+      "distance": 4
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "path": [
+        "C",
+        "D",
+        "E"
+      ],
+      "distance": 5
+    },
+    {
+      "from": "E",
+      "to": "DEPOT",
+      "path": [
+        "E",
+        "DEPOT"
+      ],
+      "distance": 11
+    }
+  ],
+  "runtime_seconds": {
+    "Merge sort": 9.791333345295547e-06,
+    "Knapsack DP": 2.8241666673996708e-05,
+    "Dijkstra": 5.725000003546181e-06,
+    "Nearest-neighbor TSP": 3.533566667594338e-05
+  }
+}

@@ -1,0 +1,12 @@
+\n=== COURIER PLANNING SYSTEM ===
+Prioritized parcels: P02 -> P07 -> P01 -> P04 -> P09 -> P06 -> P03 -> P10 -> P05 -> P08
+Selected parcels: P01, P06, P03, P05
+Packed weight: 20/20 kg | Value: 123
+Delivery route: DEPOT -> A -> C -> E -> DEPOT
+Total route distance: 24 km
+\nRuntime (mean of 3 runs):
+  Merge sort               0.0098 ms
+  Knapsack DP              0.0282 ms
+  Dijkstra                 0.0057 ms
+  Nearest-neighbor TSP     0.0353 ms
+\nDetailed results saved to: /mnt/data/courier_planner_project/courier_planner/outputs

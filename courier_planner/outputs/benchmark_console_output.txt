@@ -1,0 +1,4 @@
+Benchmark written to outputs/benchmark.csv
+Chart written to outputs/runtime_comparison.png
+{'dataset': 'Small', 'parcels': 60, 'nodes': 12, 'merge_sort_ms': 0.09471559999383317, 'knapsack_ms': 0.19363379999504104, 'dijkstra_ms': 0.013665999989598276, 'nearest_neighbor_tsp_ms': 0.1315623999971649}
+{'dataset': 'Large', 'parcels': 450, 'nodes': 45, 'merge_sort_ms': 1.003684200003363, 'knapsack_ms': 4.327589199994009, 'dijkstra_ms': 0.0701615999957994, 'nearest_neighbor_tsp_ms': 0.6598721999978352}
